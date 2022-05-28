@@ -1,6 +1,4 @@
 var boton = document.getElementById('registrar');
-function mensaje(){
-    texto=Window.alert('registro exitoso');
-    return(texto);
+function mensajeBoton(){
+    alert("Registro exitoso");
 }
-btn.addEventListener('click',mensaje,true);

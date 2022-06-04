@@ -18,26 +18,33 @@
             </h3>
         </center>
     </header>
-    <section id="cuadroLogIn">
-        <br>
-        <br>
-        <center>
-            <h3>
-                USUARIO:
-            </h3>
-            <input type="text" name="usuario" id="USUARIO">
-            <h3>
-                CONTRASEÑA:
-            </h3>
-            <input type="password" name="contraseña" id="contraseña">
-            <br>
-            <br>
-            <input type="button" value="Registrar" id="registrar" onclick="mensajeBoton()">
-        </center>
-    </section>
     <br>
     <br>
-    <footer id="footer">
+    <center>
+        <form id="cuadroLogIn">
+            
+            <center>
+                <p>
+                    <label for="USUARIO" id="txtusuario">USUARIO:</label>
+                </p>
+                <p>
+                    <input type="text" name="usuario" id="USUARIO">
+                </p>
+                <p>
+                    <label for="contraseña" id="psscontraseña">CONTRASEÑA:</label>
+                </p>
+                <p>
+                    <input type="password" name="contraseña" id="contraseña">
+                </p>
+                <input type="button" value="Registrar" id="registrar" onclick="mensajeBoton()">
+                <br>
+                <br>
+            </center>
+        </form>
+    </center>
+    <br>
+    <br>
+    <footer class="footer">
         <center>
             <h5>Developed by: Juan Pablo Vargas Hernandez Engineering</h5>
         </center>

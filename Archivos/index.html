@@ -8,47 +8,27 @@
     <LINK REL=StyleSheet HREF="./estilos.css" type="text/css"TYPE="text/css" MEDIA=screen>  
 </head>
 <body>
-    <header id="titles">
-        <center>
-            <h1>
-                REGISTRE SU HORARIO DE INGRESO O SALIDA
-            </h1>
-            <h3>
-                Para generar el registro digite su usuario y contraseña
-            </h3>
-        </center>
-    </header>
-    <br>
-    <br>
-    <center>
-        <form id="cuadroLogIn">
-            
-            <center>
-                <p>
-                    <label for="USUARIO" id="txtusuario">USUARIO:</label>
-                </p>
-                <p>
-                    <input type="text" name="usuario" id="USUARIO">
-                </p>
-                <p>
-                    <label for="contraseña" id="psscontraseña">CONTRASEÑA:</label>
-                </p>
-                <p>
-                    <input type="password" name="contraseña" id="contraseña">
-                </p>
-                <input type="button" value="Registrar" id="registrar" onclick="mensajeBoton()">
-                <br>
-                <br>
-            </center>
+    <div class="login-box">
+        <h2>Login</h2>
+        <form action="">
+            <div class="user-box">
+                <input type="text" name="" required="">
+                <label for="">Username</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="" required="">
+                <label for="">Password</label>
+            </div>
+            <a href="./crearUsuarios.html">Create an user here</a>
+            <a href="#" onclick="mensajeBoton()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+            </a>
         </form>
-    </center>
-    <br>
-    <br>
-    <footer class="footer">
-        <center>
-            <h5>Developed by: Juan Pablo Vargas Hernandez Engineering</h5>
-        </center>
-    </footer>
+    </div>
 </body>
 <script src="./scripts.js"></script>
 </html>

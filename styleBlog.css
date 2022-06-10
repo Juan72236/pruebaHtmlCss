@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    color: white;
 }
 body{
     margin:0;
@@ -40,4 +41,38 @@ background-color:#000108;
 }
 #content{
     display: grid;
+    color: white;
+}
+
+.linksProjects a{
+    text-decoration: none;
+}
+.linksProjects a:visited{
+    text-decoration: none;
+}
+.linksProjects a:hover{
+    text-decoration: none;
+}
+.linksProjects a:active{
+    text-decoration: none;
+}
+.linksProjects a img{
+    width: 20%;
+    border-radius: 3%;
+    
+}
+.linksProjects a img:hover{
+    width: 25%;
+    border-radius: 3%;
+}
+.linksProjects a img:active{
+    width: 20%;
+    border-radius: 3%;
+    border: none;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
 }
